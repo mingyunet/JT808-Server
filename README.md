@@ -4,10 +4,12 @@
 部分代码参考了java版本的jt808协议解析 https://github.com/hylexus/jt-808-protocol
 
 直接运行程序即可，端口默认9623（在Main方法里面修改），可以直接运行程序使用网络调试助手联调。
-![Image text](https://raw.github.com/yourName/repositpry/master/yourprojectName/img-folder/test.jpg)
+
+![Image text](https://github.com/mingyunet/JT808-Server/blob/master/Tool/data.png)
 
 
 部分JT808测试数据如下：
+
 ##终端注册
 7E0100002c0200000000150025002c0133373039363054372d54383038000000000000000000000000003033323931373001d4c142383838387b7E
 
