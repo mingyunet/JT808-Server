@@ -1,6 +1,6 @@
 ﻿# .net core dotnetty tcp server (jt808)
 
-在网上开到Azure团队开源的DotNetty框架，一时兴起写了个基于DotNetty的Tcp Server Demo
+在网上看到Azure团队开源的DotNetty框架，一时兴起写了个基于DotNetty的Tcp Server Demo
 解析了JT808的部分指令，应答部分暂时未弄完，代码写的比较随意请不要在意。
 
 部分代码参考了java版本的jt808协议解析 https://github.com/hylexus/jt-808-protocol
