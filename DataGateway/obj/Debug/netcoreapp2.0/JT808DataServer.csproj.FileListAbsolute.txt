@@ -1,0 +1,12 @@
+F:\CoreProject\JT808DataServer\DataGateway\bin\Debug\netcoreapp2.0\NLog.config
+F:\CoreProject\JT808DataServer\DataGateway\bin\Debug\netcoreapp2.0\JT808DataServer.deps.json
+F:\CoreProject\JT808DataServer\DataGateway\bin\Debug\netcoreapp2.0\JT808DataServer.runtimeconfig.json
+F:\CoreProject\JT808DataServer\DataGateway\bin\Debug\netcoreapp2.0\JT808DataServer.runtimeconfig.dev.json
+F:\CoreProject\JT808DataServer\DataGateway\bin\Debug\netcoreapp2.0\JT808DataServer.dll
+F:\CoreProject\JT808DataServer\DataGateway\bin\Debug\netcoreapp2.0\JT808DataServer.pdb
+F:\CoreProject\JT808DataServer\DataGateway\obj\Debug\netcoreapp2.0\JT808DataServer.csproj.CoreCompileInputs.cache
+F:\CoreProject\JT808DataServer\DataGateway\obj\Debug\netcoreapp2.0\JT808DataServer.AssemblyInfoInputs.cache
+F:\CoreProject\JT808DataServer\DataGateway\obj\Debug\netcoreapp2.0\JT808DataServer.AssemblyInfo.cs
+F:\CoreProject\JT808DataServer\DataGateway\obj\Debug\netcoreapp2.0\JT808DataServer.dll
+F:\CoreProject\JT808DataServer\DataGateway\obj\Debug\netcoreapp2.0\JT808DataServer.pdb
+F:\CoreProject\JT808DataServer\DataGateway\obj\Debug\netcoreapp2.0\JT808DataServer.csprojResolveAssemblyReference.cache

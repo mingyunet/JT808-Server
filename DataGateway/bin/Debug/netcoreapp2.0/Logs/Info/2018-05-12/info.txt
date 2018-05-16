@@ -1,0 +1,11 @@
+2018-05-12 09:01:49.6512 [Info]: 服务器启动 
+2018-05-12 09:01:50.8837 [Info]: 开始监听端口：9623 
+2018-05-12 09:01:57.3577 [Info]: 终端连接:[id: 0x5af75488, [::ffff:192.168.4.60]:49380 => [::ffff:192.168.4.60]:9623] 
+2018-05-12 09:02:01.3045 [Info]: 收到位置信息:{"AlarmState":{"OverSpeed":false,"GnssFault":false,"PowerLow":false,"PowerOff":false},"StateInfo":{"AccOn":true,"Navigation":false,"Latitude_N_S":0,"Longitude_E_W":0},"Lon":112.182128,"Lat":32.127833,"ShiftLon":0.0,"ShiftLat":0.0,"Altitude":0.0,"Speed":0.0,"Direction":0,"GpsTime":"2018-5-9 21:43:53"} 
+2018-05-12 09:02:01.3357 [Info]: >>>>>[位置信息汇报],终端ID=18170223033,流水号=3 
+2018-05-12 09:02:07.9345 [Info]: 收到位置信息:{"AlarmState":{"OverSpeed":false,"GnssFault":false,"PowerLow":false,"PowerOff":false},"StateInfo":{"AccOn":true,"Navigation":false,"Latitude_N_S":0,"Longitude_E_W":0},"Lon":112.182128,"Lat":32.127833,"ShiftLon":0.0,"ShiftLat":0.0,"Altitude":0.0,"Speed":0.0,"Direction":0,"GpsTime":"2018-5-9 21:43:53"} 
+2018-05-12 09:02:07.9501 [Info]: >>>>>[位置信息汇报],终端ID=18170223033,流水号=3 
+2018-05-12 09:09:43.8441 [Info]: >>>>>[终端鉴权],终端ID=18170223038,流水号=157 
+2018-05-12 09:10:11.4560 [Info]: >>>>>[终端鉴权],终端ID=18170223038,流水号=161 
+2018-05-12 09:10:25.8375 [Info]: >>>>>[终端鉴权],终端ID=18170223038,流水号=165 
+2018-05-12 09:10:41.2910 [Info]: >>>>>[终端鉴权],终端ID=18170223038,流水号=8 

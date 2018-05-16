@@ -1,0 +1,132 @@
+2018-05-09 22:44:39.1540 [Error]: 解析数据时出错 System.Exception: Parameter: buffer head flag byte is not 126
+   at DataGateway.GPS.JT808.Codec.JT808ProtoDecoder.Decode(Byte[] bytes) in F:\CoreProject\MFrameDataServer\DataGateway\GPS\JT808\Codec\JT808Decoder.cs:line 36
+   at DataGateway.GPS.JT808.Handler.JT808ProInHandler.ChannelRead(IChannelHandlerContext context, Object message) in F:\CoreProject\MFrameDataServer\DataGateway\GPS\JT808\Handler\JT808ProInHandler.cs:line 35 
+ AbstractChannelHandlerContext.FireChannelRead => AbstractChannelHandlerContext.InvokeChannelRead => JT808ProInHandler.ChannelRead 
+
+2018-05-09 22:45:56.5477 [Error]: 解析数据时出错 System.Exception: Parameter: buffer head flag byte is not 126
+   at DataGateway.GPS.JT808.Codec.JT808ProtoDecoder.Decode(Byte[] bytes) in F:\CoreProject\MFrameDataServer\DataGateway\GPS\JT808\Codec\JT808Decoder.cs:line 36
+   at DataGateway.GPS.JT808.Handler.JT808ProInHandler.ChannelRead(IChannelHandlerContext context, Object message) in F:\CoreProject\MFrameDataServer\DataGateway\GPS\JT808\Handler\JT808ProInHandler.cs:line 35 
+ AbstractChannelHandlerContext.FireChannelRead => AbstractChannelHandlerContext.InvokeChannelRead => JT808ProInHandler.ChannelRead 
+
+2018-05-09 22:46:34.5823 [Error]: 解析数据时出错 System.Exception: Parameter: buffer head flag byte is not 126
+   at DataGateway.GPS.JT808.Codec.JT808ProtoDecoder.Decode(Byte[] bytes) in F:\CoreProject\MFrameDataServer\DataGateway\GPS\JT808\Codec\JT808Decoder.cs:line 36
+   at DataGateway.GPS.JT808.Handler.JT808ProInHandler.ChannelRead(IChannelHandlerContext context, Object message) in F:\CoreProject\MFrameDataServer\DataGateway\GPS\JT808\Handler\JT808ProInHandler.cs:line 35 
+ AbstractChannelHandlerContext.FireChannelRead => AbstractChannelHandlerContext.InvokeChannelRead => JT808ProInHandler.ChannelRead 
+
+2018-05-09 22:47:44.2797 [Error]: 解析数据时出错 System.Exception: Parameter: buffer head flag byte is not 126
+   at DataGateway.GPS.JT808.Codec.JT808ProtoDecoder.Decode(Byte[] bytes) in F:\CoreProject\MFrameDataServer\DataGateway\GPS\JT808\Codec\JT808Decoder.cs:line 36
+   at DataGateway.GPS.JT808.Handler.JT808ProInHandler.ChannelRead(IChannelHandlerContext context, Object message) in F:\CoreProject\MFrameDataServer\DataGateway\GPS\JT808\Handler\JT808ProInHandler.cs:line 35 
+ AbstractChannelHandlerContext.FireChannelRead => AbstractChannelHandlerContext.InvokeChannelRead => JT808ProInHandler.ChannelRead 
+
+2018-05-09 22:50:16.3412 [Error]: 解析数据时出错 System.Exception: Parameter: buffer head flag byte is not 126
+   at DataGateway.GPS.JT808.Codec.JT808ProtoDecoder.Decode(Byte[] bytes) in F:\CoreProject\MFrameDataServer\DataGateway\GPS\JT808\Codec\JT808Decoder.cs:line 36
+   at DataGateway.GPS.JT808.Handler.JT808ProInHandler.ChannelRead(IChannelHandlerContext context, Object message) in F:\CoreProject\MFrameDataServer\DataGateway\GPS\JT808\Handler\JT808ProInHandler.cs:line 35 
+ AbstractChannelHandlerContext.FireChannelRead => AbstractChannelHandlerContext.InvokeChannelRead => JT808ProInHandler.ChannelRead 
+
+2018-05-09 22:51:58.2932 [Error]: 解析数据时出错 System.Exception: Parameter: buffer head flag byte is not 126
+   at DataGateway.GPS.JT808.Codec.JT808ProtoDecoder.Decode(Byte[] bytes) in F:\CoreProject\MFrameDataServer\DataGateway\GPS\JT808\Codec\JT808Decoder.cs:line 36
+   at DataGateway.GPS.JT808.Handler.JT808ProInHandler.ChannelRead(IChannelHandlerContext context, Object message) in F:\CoreProject\MFrameDataServer\DataGateway\GPS\JT808\Handler\JT808ProInHandler.cs:line 35 
+ AbstractChannelHandlerContext.FireChannelRead => AbstractChannelHandlerContext.InvokeChannelRead => JT808ProInHandler.ChannelRead 
+
+2018-05-09 22:55:01.1965 [Error]: 解析数据时出错 System.Exception: Parameter: buffer head flag byte is not 126
+   at DataGateway.GPS.JT808.Codec.JT808ProtoDecoder.Decode(Byte[] bytes) in F:\CoreProject\MFrameDataServer\DataGateway\GPS\JT808\Codec\JT808Decoder.cs:line 36
+   at DataGateway.GPS.JT808.Handler.JT808ProInHandler.ChannelRead(IChannelHandlerContext context, Object message) in F:\CoreProject\MFrameDataServer\DataGateway\GPS\JT808\Handler\JT808ProInHandler.cs:line 39 
+ AbstractChannelHandlerContext.FireChannelRead => AbstractChannelHandlerContext.InvokeChannelRead => JT808ProInHandler.ChannelRead 
+
+2018-05-09 22:55:17.9288 [Error]: 解析数据时出错 System.Exception: Parameter: buffer head flag byte is not 126
+   at DataGateway.GPS.JT808.Codec.JT808ProtoDecoder.Decode(Byte[] bytes) in F:\CoreProject\MFrameDataServer\DataGateway\GPS\JT808\Codec\JT808Decoder.cs:line 36
+   at DataGateway.GPS.JT808.Handler.JT808ProInHandler.ChannelRead(IChannelHandlerContext context, Object message) in F:\CoreProject\MFrameDataServer\DataGateway\GPS\JT808\Handler\JT808ProInHandler.cs:line 39 
+ AbstractChannelHandlerContext.FireChannelRead => AbstractChannelHandlerContext.InvokeChannelRead => JT808ProInHandler.ChannelRead 
+
+2018-05-09 22:55:45.2744 [Error]: 解析数据时出错 System.Exception: Parameter: buffer check failed, expect-check-code=22, actually-check-code=50
+   at DataGateway.GPS.JT808.Codec.JT808ProtoDecoder.Decode(Byte[] bytes) in F:\CoreProject\MFrameDataServer\DataGateway\GPS\JT808\Codec\JT808Decoder.cs:line 66
+   at DataGateway.GPS.JT808.Handler.JT808ProInHandler.ChannelRead(IChannelHandlerContext context, Object message) in F:\CoreProject\MFrameDataServer\DataGateway\GPS\JT808\Handler\JT808ProInHandler.cs:line 39 
+ AbstractChannelHandlerContext.FireChannelRead => AbstractChannelHandlerContext.InvokeChannelRead => JT808ProInHandler.ChannelRead 
+
+2018-05-09 22:57:17.2143 [Error]: 解析数据时出错 System.Exception: Parameter: buffer check failed, expect-check-code=22, actually-check-code=50
+   at DataGateway.GPS.JT808.Codec.JT808ProtoDecoder.Decode(Byte[] bytes) in F:\CoreProject\MFrameDataServer\DataGateway\GPS\JT808\Codec\JT808Decoder.cs:line 66
+   at DataGateway.GPS.JT808.Handler.JT808ProInHandler.ChannelRead(IChannelHandlerContext context, Object message) in F:\CoreProject\MFrameDataServer\DataGateway\GPS\JT808\Handler\JT808ProInHandler.cs:line 39 
+ AbstractChannelHandlerContext.FireChannelRead => AbstractChannelHandlerContext.InvokeChannelRead => JT808ProInHandler.ChannelRead 
+
+2018-05-09 22:57:56.4219 [Error]: 解析数据时出错 System.TypeInitializationException: The type initializer for 'DataGateway.GPS.JT808.Constant.JT808Constant' threw an exception. ---> System.ArgumentException: 'GBK' is not a supported encoding name. For information on defining a custom encoding, see the documentation for the Encoding.RegisterProvider method.
+Parameter name: name
+   at System.Globalization.EncodingTable.internalGetCodePageFromName(String name)
+   at System.Globalization.EncodingTable.GetCodePageFromName(String name)
+   at System.Text.Encoding.GetEncoding(String name)
+   at DataGateway.GPS.JT808.Constant.JT808Constant..cctor() in F:\CoreProject\MFrameDataServer\DataGateway\GPS\JT808\Constant\JT808Constant.cs:line 16
+   --- End of inner exception stack trace ---
+   at DataGateway.GPS.JT808.Service.TerminalMsgProcessService.processMessageData(JT808Message Data) in F:\CoreProject\MFrameDataServer\DataGateway\GPS\JT808\Service\TerminalMsgProcessService.cs:line 26
+   at DataGateway.GPS.JT808.Handler.JT808ProInHandler.ChannelRead(IChannelHandlerContext context, Object message) in F:\CoreProject\MFrameDataServer\DataGateway\GPS\JT808\Handler\JT808ProInHandler.cs:line 50 
+ AbstractChannelHandlerContext.FireChannelRead => AbstractChannelHandlerContext.InvokeChannelRead => JT808ProInHandler.ChannelRead 
+
+2018-05-09 23:01:03.6737 [Error]: 解析数据时出错The type initializer for 'DataGateway.GPS.JT808.Constant.JT808Constant' threw an exception. System.TypeInitializationException: The type initializer for 'DataGateway.GPS.JT808.Constant.JT808Constant' threw an exception. ---> System.ArgumentException: 'GBK' is not a supported encoding name. For information on defining a custom encoding, see the documentation for the Encoding.RegisterProvider method.
+Parameter name: name
+   at System.Globalization.EncodingTable.internalGetCodePageFromName(String name)
+   at System.Globalization.EncodingTable.GetCodePageFromName(String name)
+   at System.Text.Encoding.GetEncoding(String name)
+   at DataGateway.GPS.JT808.Constant.JT808Constant..cctor() in F:\CoreProject\MFrameDataServer\DataGateway\GPS\JT808\Constant\JT808Constant.cs:line 16
+   --- End of inner exception stack trace ---
+   at DataGateway.GPS.JT808.Service.TerminalMsgProcessService.processMessageData(JT808Message Data) in F:\CoreProject\MFrameDataServer\DataGateway\GPS\JT808\Service\TerminalMsgProcessService.cs:line 26
+   at DataGateway.GPS.JT808.Handler.JT808ProInHandler.ChannelRead(IChannelHandlerContext context, Object message) in F:\CoreProject\MFrameDataServer\DataGateway\GPS\JT808\Handler\JT808ProInHandler.cs:line 45 
+ AbstractChannelHandlerContext.FireChannelRead => AbstractChannelHandlerContext.InvokeChannelRead => JT808ProInHandler.ChannelRead 
+
+2018-05-09 23:17:06.1646 [Error]: <<<<<[平台通用应答信息]处理错误>>>>>,Error getting value from 'IsOutputShutdown' on 'DotNetty.Transport.Channels.Sockets.TcpSocketChannel'. Newtonsoft.Json.JsonSerializationException: Error getting value from 'IsOutputShutdown' on 'DotNetty.Transport.Channels.Sockets.TcpSocketChannel'. ---> System.NotImplementedException: The method or operation is not implemented.
+   at DotNetty.Transport.Channels.Sockets.TcpSocketChannel.get_IsOutputShutdown()
+   at lambda_method(Closure , Object )
+   at Newtonsoft.Json.Serialization.ExpressionValueProvider.GetValue(Object target)
+   --- End of inner exception stack trace ---
+   at Newtonsoft.Json.Serialization.ExpressionValueProvider.GetValue(Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.CalculatePropertyValues(JsonWriter writer, Object value, JsonContainerContract contract, JsonProperty member, JsonProperty property, JsonContract& memberContract, Object& memberValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.Serialize(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.SerializeInternal(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonConvert.SerializeObjectInternal(Object value, Type type, JsonSerializer jsonSerializer)
+   at DataGateway.GPS.JT808.Service.TerminalMsgProcessService.processMessageData(JT808Message req) in F:\CoreProject\MFrameDataServer\DataGateway\GPS\JT808\Service\TerminalMsgProcessService.cs:line 43 
+ AbstractChannelHandlerContext.InvokeChannelRead => JT808ProInHandler.ChannelRead => TerminalMsgProcessService.processMessageData 
+
+2018-05-09 23:18:06.4647 [Error]: <<<<<[平台通用应答信息]处理错误>>>>>,Error getting value from 'IsOutputShutdown' on 'DotNetty.Transport.Channels.Sockets.TcpSocketChannel'. Newtonsoft.Json.JsonSerializationException: Error getting value from 'IsOutputShutdown' on 'DotNetty.Transport.Channels.Sockets.TcpSocketChannel'. ---> System.NotImplementedException: The method or operation is not implemented.
+   at DotNetty.Transport.Channels.Sockets.TcpSocketChannel.get_IsOutputShutdown()
+   at lambda_method(Closure , Object )
+   at Newtonsoft.Json.Serialization.ExpressionValueProvider.GetValue(Object target)
+   --- End of inner exception stack trace ---
+   at Newtonsoft.Json.Serialization.ExpressionValueProvider.GetValue(Object target)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.CalculatePropertyValues(JsonWriter writer, Object value, JsonContainerContract contract, JsonProperty member, JsonProperty property, JsonContract& memberContract, Object& memberValue)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeObject(JsonWriter writer, Object value, JsonObjectContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.Serialize(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.SerializeInternal(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonConvert.SerializeObjectInternal(Object value, Type type, JsonSerializer jsonSerializer)
+   at DataGateway.GPS.JT808.Service.TerminalMsgProcessService.processMessageData(JT808Message req) in F:\CoreProject\MFrameDataServer\DataGateway\GPS\JT808\Service\TerminalMsgProcessService.cs:line 43 
+ AbstractChannelHandlerContext.InvokeChannelRead => JT808ProInHandler.ChannelRead => TerminalMsgProcessService.processMessageData 
+
+2018-05-09 23:32:08.8010 [Error]: 解析数据时出错Illegal reference count of 0 for this object DotNetty.Buffers.IllegalReferenceCountException: Illegal reference count of 0 for this object
+   at DotNetty.Buffers.ThrowHelper.ThrowIllegalReferenceCountException(Int32 count)
+   at DotNetty.Buffers.PooledHeapByteBuffer.GetBytes(Int32 index, Byte[] dst, Int32 dstIndex, Int32 length)
+   at DotNetty.Buffers.AbstractByteBuffer.GetBytes(Int32 index, Byte[] destination)
+   at DataGateway.GPS.JT808.Handler.JT808ProInHandler.ChannelRead(IChannelHandlerContext context, Object message) in F:\CoreProject\MFrameDataServer\DataGateway\GPS\JT808\Handler\JT808ProInHandler.cs:line 36 
+ AbstractChannelHandlerContext.FireChannelRead => AbstractChannelHandlerContext.InvokeChannelRead => JT808ProInHandler.ChannelRead 
+
+2018-05-09 23:32:10.3766 [Error]: 解析数据时出错Illegal reference count of 0 for this object DotNetty.Buffers.IllegalReferenceCountException: Illegal reference count of 0 for this object
+   at DotNetty.Buffers.ThrowHelper.ThrowIllegalReferenceCountException(Int32 count)
+   at DotNetty.Buffers.PooledHeapByteBuffer.GetBytes(Int32 index, Byte[] dst, Int32 dstIndex, Int32 length)
+   at DotNetty.Buffers.AbstractByteBuffer.GetBytes(Int32 index, Byte[] destination)
+   at DataGateway.GPS.JT808.Handler.JT808ProInHandler.ChannelRead(IChannelHandlerContext context, Object message) in F:\CoreProject\MFrameDataServer\DataGateway\GPS\JT808\Handler\JT808ProInHandler.cs:line 36 
+ AbstractChannelHandlerContext.FireChannelRead => AbstractChannelHandlerContext.InvokeChannelRead => JT808ProInHandler.ChannelRead 
+
+2018-05-09 23:32:11.1254 [Error]: 解析数据时出错Illegal reference count of 0 for this object DotNetty.Buffers.IllegalReferenceCountException: Illegal reference count of 0 for this object
+   at DotNetty.Buffers.ThrowHelper.ThrowIllegalReferenceCountException(Int32 count)
+   at DotNetty.Buffers.PooledHeapByteBuffer.GetBytes(Int32 index, Byte[] dst, Int32 dstIndex, Int32 length)
+   at DotNetty.Buffers.AbstractByteBuffer.GetBytes(Int32 index, Byte[] destination)
+   at DataGateway.GPS.JT808.Handler.JT808ProInHandler.ChannelRead(IChannelHandlerContext context, Object message) in F:\CoreProject\MFrameDataServer\DataGateway\GPS\JT808\Handler\JT808ProInHandler.cs:line 36 
+ AbstractChannelHandlerContext.FireChannelRead => AbstractChannelHandlerContext.InvokeChannelRead => JT808ProInHandler.ChannelRead 
+
+2018-05-09 23:32:12.0146 [Error]: 解析数据时出错Illegal reference count of 0 for this object DotNetty.Buffers.IllegalReferenceCountException: Illegal reference count of 0 for this object
+   at DotNetty.Buffers.ThrowHelper.ThrowIllegalReferenceCountException(Int32 count)
+   at DotNetty.Buffers.PooledHeapByteBuffer.GetBytes(Int32 index, Byte[] dst, Int32 dstIndex, Int32 length)
+   at DotNetty.Buffers.AbstractByteBuffer.GetBytes(Int32 index, Byte[] destination)
+   at DataGateway.GPS.JT808.Handler.JT808ProInHandler.ChannelRead(IChannelHandlerContext context, Object message) in F:\CoreProject\MFrameDataServer\DataGateway\GPS\JT808\Handler\JT808ProInHandler.cs:line 36 
+ AbstractChannelHandlerContext.FireChannelRead => AbstractChannelHandlerContext.InvokeChannelRead => JT808ProInHandler.ChannelRead 
+

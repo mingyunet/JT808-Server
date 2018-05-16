@@ -1,0 +1,1 @@
+2018-05-10 18:15:48.2051 [Debug]: 收到位置信息:{"AlarmState":{"OverSpeed":false,"GnssFault":false,"PowerLow":false,"PowerOff":false},"StateInfo":{"AccOn":true,"Navigation":false,"Latitude_N_S":0,"Longitude_E_W":0},"Lon":112.182128,"Lat":32.127833,"ShiftLon":0.0,"ShiftLat":0.0,"Altitude":0.0,"Speed":0.0,"Direction":131,"GpsTime":"2018-5-9 3:40:58"} 

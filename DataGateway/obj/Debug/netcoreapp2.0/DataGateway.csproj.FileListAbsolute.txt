@@ -1,0 +1,14 @@
+F:\CoreProject\MFrameDataServer\DataGateway\bin\Debug\netcoreapp2.0\DataGateway.deps.json
+F:\CoreProject\MFrameDataServer\DataGateway\bin\Debug\netcoreapp2.0\DataGateway.runtimeconfig.json
+F:\CoreProject\MFrameDataServer\DataGateway\bin\Debug\netcoreapp2.0\DataGateway.runtimeconfig.dev.json
+F:\CoreProject\MFrameDataServer\DataGateway\bin\Debug\netcoreapp2.0\DataGateway.dll
+F:\CoreProject\MFrameDataServer\DataGateway\obj\Debug\netcoreapp2.0\DataGateway.csprojResolveAssemblyReference.cache
+F:\CoreProject\MFrameDataServer\DataGateway\obj\Debug\netcoreapp2.0\DataGateway.csproj.CoreCompileInputs.cache
+F:\CoreProject\MFrameDataServer\DataGateway\obj\Debug\netcoreapp2.0\DataGateway.AssemblyInfoInputs.cache
+F:\CoreProject\MFrameDataServer\DataGateway\obj\Debug\netcoreapp2.0\DataGateway.AssemblyInfo.cs
+F:\CoreProject\MFrameDataServer\DataGateway\bin\Debug\netcoreapp2.0\NLog.config
+F:\CoreProject\MFrameDataServer\DataGateway\bin\Debug\netcoreapp2.0\DataGateway.pdb
+F:\CoreProject\MFrameDataServer\DataGateway\obj\Debug\netcoreapp2.0\DataGateway.dll
+F:\CoreProject\MFrameDataServer\DataGateway\obj\Debug\netcoreapp2.0\DataGateway.pdb
+F:\CoreProject\MFrameDataServer\DataGateway\bin\Debug\netcoreapp2.0\MingYu.NetWork.dll
+F:\CoreProject\MFrameDataServer\DataGateway\bin\Debug\netcoreapp2.0\MingYu.NetWork.pdb
