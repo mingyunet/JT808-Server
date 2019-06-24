@@ -33,6 +33,41 @@ namespace DataGateway.GPS.JT808.Messages
         /// 2 bits
         /// </summary>
         public int Reserve { get; set; }
+
+        /// <summary>
+        /// 编码为字节数组
+        /// </summary>
+        /// <returns></returns>
+        public byte[] Encode()
+        {
+
+            int init = 0x0;
+
+            // is package split
+            if (IsSplit)
+            {
+                init = (init | 0x1) << 13;
+            }
+
+            // encrypt type
+            init = init | (EncryptionType << 10);
+
+            // message body length
+            if (MsgBodyLength> JT808Constant.MAX_MSG_BODY_LENGTH)
+            {
+                throw new Exception("Field: msgBodyLength="
+                        + MsgBodyLength + ", but max allowable values is "
+                        + JT808Constant.MAX_MSG_BODY_LENGTH + ".");
+            }
+
+            init = init | MsgBodyLength;
+
+            ByteBuffer buffer = ByteBuffer.Allocate(2);
+            buffer.PutShort((short)init);
+
+            return buffer.Array();
+        }
+
     }
      
 }

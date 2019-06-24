@@ -22,6 +22,24 @@ namespace DataGateway.GPS.JT808.Model
         /// 鉴权码
         /// </summary>
         public string AuthCode { get; set; }
+        
+        public override byte[] Encode()
+        {
+
+            if (AuthCode == null)
+            {
+                AuthCode = "";
+            }
+
+
+            byte[] authCodeBytes = JT808Constant.STRING_ENCODING.GetBytes(AuthCode);
+
+            ByteBuffer buffer = ByteBuffer.Allocate(3 + authCodeBytes.Length);
+            buffer.PutShort(ReplySerial);
+            buffer.Put(ReplyCode);
+            buffer.Put(authCodeBytes);
+            return buffer.Array();
+        }
 
         public override short GetMessageId()
         {

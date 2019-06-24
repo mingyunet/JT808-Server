@@ -19,6 +19,12 @@ namespace DataGateway.GPS.JT808.Model
         /// </summary>
         public short ReplySerial { get; set; }
 
+        /// <summary>
+        /// 编码
+        /// </summary>
+        /// <returns></returns>
+        public abstract byte[] Encode();
+
 
         public abstract short GetMessageId();
     }

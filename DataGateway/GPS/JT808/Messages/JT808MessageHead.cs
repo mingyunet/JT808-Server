@@ -40,5 +40,51 @@ namespace DataGateway.GPS.JT808.Megssages
         /// If msgBodyAttr.isSplit=true, then it not null.
         /// </summary>
         public MessageSplitInfo SplitInfo { get; set; }
+
+        /// <summary>
+        /// 编码消息头为字节数组
+        /// </summary>
+        /// <returns></returns>
+        public byte[] Encode()
+        {
+
+            int capacity = 12;
+            byte[] splitInfoBytes = null;
+            if (SplitInfo != null)
+            {
+                splitInfoBytes = SplitInfo.Encode();
+                capacity += splitInfoBytes.Length;
+            }
+
+            if (MsgBodyAttr == null)
+            {
+                throw new Exception("Field: msgBodyAttr cannot be null.");
+            }
+
+            ByteBuffer buffer = ByteBuffer.Allocate(capacity);
+            buffer.PutShort(MessageId);
+            buffer.Put(MsgBodyAttr.Encode());
+
+            // mobile
+            if (TerminalId.Length  > JT808Constant.MAX_MOBILE_LENGTH)
+            {
+                throw new Exception(
+                        "Field: mobile=" + TerminalId
+                                + ", but max allowable value is "
+                                + JT808Constant.MAX_MOBILE_LENGTH + ".");
+            }
+             
+
+            buffer.Put(JT808ProtoDecoder.Mobile2bcd6(TerminalId));
+            buffer.PutShort(this.MessageSerial);
+            if (splitInfoBytes != null)
+            {
+                buffer.Put(splitInfoBytes);
+            }
+
+            return buffer.Array();
+        }
+
+
     }
 }

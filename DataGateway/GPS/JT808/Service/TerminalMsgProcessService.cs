@@ -8,6 +8,7 @@ using DataGateway.GPS.JT808.Model;
 using DataGateway.GPS.JT808.Data;
 using DataGateway.GPS.JT808.Util;
 using DotNetty.Buffers;
+using System.Text;
 using JT808DataServer.Common;
 
 namespace DataGateway.GPS.JT808.Service
@@ -23,13 +24,11 @@ namespace DataGateway.GPS.JT808.Service
         public void processMessageData(JT808Message req)
         {
             JT808MessageHead header = req.MsgHeader;
-             
             // 1. 终端心跳-消息体为空 ==> 平台通用应答
             if (header.MessageId == JT808Constant.MSG_ID_TERMINAL_HEART_BEAT)
             {
                 logger.Info("<<<<<[终端心跳],phone={0},flowid={1}", header.TerminalId, header.MessageSerial);
                 ProcessCommonResponse(req);
-
             }//2. 终端注册 ==> 终端注册应答
             else if (header.MessageId == JT808Constant.MSG_ID_TERMINAL_REGISTER)
             {
@@ -41,7 +40,6 @@ namespace DataGateway.GPS.JT808.Service
             {
                 logger.Info(">>>>>[终端鉴权],终端ID={0},流水号={1}", header.TerminalId, header.MessageSerial);
                 ProcessCommonResponse(req);
-
             }//4.终端注销(终端注销数据消息体为空) ==> 平台通用应答
             else if (header.MessageId == JT808Constant.MSG_ID_TERMINAL_LOG_OUT)
             {
@@ -213,7 +211,7 @@ namespace DataGateway.GPS.JT808.Service
                 resp.TerminalId = req.MsgHeader.TerminalId;
                 // 应答结果
                 resp.ReplyCode = MessageResult.Success;
-                DoResponse(req.Channel, resp);
+                DoResponse(req.channel, resp);
                 #endregion
             }
             catch (Exception e)
@@ -237,7 +235,7 @@ namespace DataGateway.GPS.JT808.Service
                 resp.ReplySerial = req.MsgHeader.MessageSerial;
                 resp.ReplyId = req.MsgHeader.MessageId;
                 resp.ReplyCode = MessageResult.Success;
-                DoResponse(req.Channel, resp);
+                DoResponse(req.channel, resp);
             }
             catch (Exception e)
             {
@@ -252,8 +250,40 @@ namespace DataGateway.GPS.JT808.Service
         /// <param name="resp"></param>
         private void DoResponse(IChannelHandlerContext context, PlatformResp resp)
         {
-           //应答Byte[]构造暂时未完成
+            // 构建消息体属性对象
+            JT808MessageBodyAttr attr = new JT808MessageBodyAttr();
+            attr.EncryptionType = 0;
+            byte[] body = resp.Encode();
+            attr.MsgBodyLength = body.Length;
+            attr.IsSplit = false;
+
+            JT808MessageHead head = new JT808MessageHead();
+            head.MessageId = resp.GetMessageId();
+            head.MessageSerial = GetFlowId(context.Channel);
+            head.TerminalId = resp.TerminalId;
+            head.MsgBodyAttr = attr;
+
+            // 构建JT/T808协议消息对象
+            JT808Message message = new JT808Message();
+            message.MsgHeader = head;
+            message.MsgBody = body;
+
+            byte[] reply = message.Encode();
+            context.WriteAndFlushAsync(Unpooled.CopiedBuffer(reply));
+
+
+            //ResponseData response = new ResponseData();
+            //response.CmdID = message.MsgHeader.MessageId;
+            //response.CmdSerialNo = message.MsgHeader.MessageSerial;
+            //response.MsgBody = reply;
+            //response.TerminalID = resp.TerminalId;
+            //response.Time = response.GetTimeStamp();
+            //context.WriteAndFlushAsync(response);
+
+
         }
         #endregion
     }
+
+
 }

@@ -37,11 +37,15 @@ namespace DataGateway.GPS.JT808.Handler
                 
                 // 解析消息字节数组为JT808Message对象
                 JT808Message result = JT808ProtoDecoder.Decode(messageBytes);
-                
+
+
+                // 网关接收数据时间
+                //string gatewaytime = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
+
                 //消息正文
                 //byte[] cmdconent = result.MsgBody;
 
-                result.Channel = context;
+                result.channel = context;
                 msgProcessService.processMessageData(result);
             }
             catch (Exception ex)

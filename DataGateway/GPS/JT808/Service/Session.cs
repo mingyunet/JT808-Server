@@ -1,6 +1,7 @@
-﻿using System.Net;
-using DotNetty.Transport.Channels;
-using JT808DataServer.Common;
+﻿using DotNetty.Transport.Channels;
+using System;
+using System.Net;
+using System.Text;
 
 namespace DataGateway.GPS.JT808.Service
 {
@@ -61,7 +62,8 @@ namespace DataGateway.GPS.JT808.Service
             session.Channel = channel;
             session.Id = BuildId(channel);
             session.TerminalPhone = phone;
-            session.LastCommunicateTimeStamp = DateTimeEx.CurrentTimeMillis;
+            
+            session.LastCommunicateTimeStamp = DateTime.Now.Millisecond;
             return session;
         }
 

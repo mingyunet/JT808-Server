@@ -10,3 +10,14 @@ F:\CoreProject\JT808DataServer\DataGateway\obj\Debug\netcoreapp2.0\JT808DataServ
 F:\CoreProject\JT808DataServer\DataGateway\obj\Debug\netcoreapp2.0\JT808DataServer.dll
 F:\CoreProject\JT808DataServer\DataGateway\obj\Debug\netcoreapp2.0\JT808DataServer.pdb
 F:\CoreProject\JT808DataServer\DataGateway\obj\Debug\netcoreapp2.0\JT808DataServer.csprojResolveAssemblyReference.cache
+D:\My Project\github\JT808-Server\DataGateway\obj\Debug\netcoreapp2.0\JT808DataServer.csproj.CoreCompileInputs.cache
+D:\My Project\github\JT808-Server\DataGateway\obj\Debug\netcoreapp2.0\JT808DataServer.AssemblyInfoInputs.cache
+D:\My Project\github\JT808-Server\DataGateway\obj\Debug\netcoreapp2.0\JT808DataServer.AssemblyInfo.cs
+D:\My Project\github\JT808-Server\DataGateway\obj\Debug\netcoreapp2.0\JT808DataServer.dll
+D:\My Project\github\JT808-Server\DataGateway\obj\Debug\netcoreapp2.0\JT808DataServer.pdb
+D:\My Project\github\JT808-Server\DataGateway\bin\Debug\netcoreapp2.0\NLog.config
+D:\My Project\github\JT808-Server\DataGateway\bin\Debug\netcoreapp2.0\JT808DataServer.deps.json
+D:\My Project\github\JT808-Server\DataGateway\bin\Debug\netcoreapp2.0\JT808DataServer.runtimeconfig.json
+D:\My Project\github\JT808-Server\DataGateway\bin\Debug\netcoreapp2.0\JT808DataServer.runtimeconfig.dev.json
+D:\My Project\github\JT808-Server\DataGateway\bin\Debug\netcoreapp2.0\JT808DataServer.dll
+D:\My Project\github\JT808-Server\DataGateway\bin\Debug\netcoreapp2.0\JT808DataServer.pdb

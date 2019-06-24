@@ -42,6 +42,15 @@ namespace DataGateway.GPS.JT808.Model
             ReplyCode = replyCode;
         }
 
+        public override byte[] Encode()
+        {
+            ByteBuffer buffer = ByteBuffer.Allocate(5);
+            buffer.PutShort(ReplySerial);
+            buffer.PutShort(ReplyId);
+            buffer.Put(ReplyCode);
+            return buffer.Array();
+        }
+
         public override short GetMessageId()
         {
            return (short) JT808Constant.CMD_COMMON_RESP;
